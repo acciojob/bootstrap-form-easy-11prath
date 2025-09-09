@@ -1,2 +1,19 @@
 
-/* Your CSS Code here. */
+/* Your CSS Code here. *//* You will need to link to the Bootstrap CSS file in your HTML <head> */
+/* <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet"> */
+
+body {
+    padding: 20px;
+}
+.container {
+    max-width: 800px;
+    margin-top: 50px;
+    padding: 30px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.form-title {
+    text-align: center;
+    margin-bottom: 30px;
+}
